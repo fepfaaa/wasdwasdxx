@@ -164,10 +164,10 @@ function create:Win()
         if input.KeyCode == Enum.KeyCode.RightControl then 
             if library.toggledui == false then
                 library.toggledui = true  
-                tween:Create(Main,TweenInfo.new(0.4,Enum.EasingStyle.Back,Enum.EasingDirection.In),{Size = UDim2.new(0, 0, 0, 0)}):Play()
+                tween:Create(Main,TweenInfo.new(0.3,Enum.EasingStyle.Back,Enum.EasingDirection.In),{Size = UDim2.new(0, 0, 0, 0)}):Play()
             else 
                 library.toggledui = false 
-                tween:Create(Main,TweenInfo.new(0.4,Enum.EasingStyle.Back),{Size = UDim2.new(0, 395, 0, 395)}):Play()
+                tween:Create(Main,TweenInfo.new(0.3,Enum.EasingStyle.Back),{Size = UDim2.new(0, 395, 0, 395)}):Play()
             end 
         end
     end)
